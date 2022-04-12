@@ -554,7 +554,3 @@ while t<t_end:
         dt.assign(dt_float)
         print('convergence failed, reducing time step and trying again')
     
-
-
-#pickle.dump((tdata,Hdata,hdata,Bdata,Hgldata,ugldata,aardata,usdata,ubdata,grdata,gldata,massdata,Qgldata,adotplusdata,adotminusdata,edotdata,ddotdata,bdotdata),open('results/temperate_experiment','w'))
-
